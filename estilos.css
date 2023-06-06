@@ -83,6 +83,7 @@ button {
     text-align: center;
     height: 40PX;
     padding: 5px;
+    
     }
  .imagenes{
 width: 20%;
@@ -98,3 +99,9 @@ font-family:'Franklin Gothic Medium';
 font-size: large;
 
  }
+.iconos{
+width: 30px;
+height: 30px;
+
+
+}

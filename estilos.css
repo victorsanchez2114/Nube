@@ -1,4 +1,6 @@
 
+
+
 h1 a {
 
 color: steelblue;
@@ -105,3 +107,40 @@ height: 30px;
 
 
 }
+.principal{
+display:flex ;
+font-family: sans-serif;
+align-items: center;
+max-width: 1000 px;
+min-width: 350 px;
+padding: 3rem;
+
+}
+.somos{
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 1rem;
+}
+.mision{
+background-color: aquamarine;
+border-radius: 1rem;
+
+}
+.vision{
+    background-color:khaki;
+    border-radius: 1rem;
+}
+.texto {
+    font-size: 20px;
+}
+.columna{
+
+    padding: 2rem;
+    width: 25%;
+    overflow: hidden;
+    transition: width .3s ease-in-out;
+    cursor: pointer;
+    
+
+}
+
+    

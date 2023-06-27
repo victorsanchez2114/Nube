@@ -77,6 +77,7 @@ button {
     width: 100px;
     height: 70px;
     font-size: 14px;
+    cursor: pointer;
     
   
     }
@@ -84,7 +85,7 @@ button {
     background-color: #7d7d7d;
     text-align: center;
     height: 40PX;
-    padding: 5px;
+    padding: 0%;
     
     }
  .imagenes{
@@ -101,10 +102,18 @@ font-family:'Franklin Gothic Medium';
 font-size: large;
 
  }
-.iconos{
+ .iconos{
+    background-color: #7d7d7d;
+padding: 0%;
+
+justify-content:center;
+z 
+
+
+ }
+.icono{
 width: 30px;
 height: 30px;
-
 
 }
 .principal{
@@ -139,8 +148,38 @@ border-radius: 1rem;
     overflow: hidden;
     transition: width .3s ease-in-out;
     cursor: pointer;
-    
+   
+}
+.autor{
+align-content: center;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+font-size: 15px;
 
 }
+#button {
+	box-shadow:inset 0px 1px 0px 0px #bbdaf7;
+	background:linear-gradient(to bottom, #79bbff 5%, #378de5 100%);
+	background-color:#79bbff;
+	border-radius:6px;
+	border:1px solid #84bbf3;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:12px;
+	font-weight:bold;
+	padding:3px 15px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #528ecc;
+    width: 6rem;
+    height: 2rem;
+}
+#button  {
+	background:linear-gradient(to bottom, #378de5 5%, #79bbff 100%);
+	background-color:#378de5;
+}
+#button  {
+	position:relative;
+	top:1px;
+}
 
-    

@@ -39,7 +39,20 @@
         </ul>
       </nav>
      <!--termina menu-->
-
+     <div class="reloj">10:15:20</div>
+     <script>
+ setInterval (()=>{
+ var reloj = document.getElementsByClassName("reloj")[0];
+ var tiempoActual = new Date ();
+ var hora = tiempoActual.getHours();
+ var minutos = tiempoActual.getMinutes();
+ var segundos = tiempoActual.getSeconds();
+ reloj.innerHTML=hora+':'+minutos+':'+segundos;
+ 
+ },1000);
+ 
+ 
+     </script>
    
    
       

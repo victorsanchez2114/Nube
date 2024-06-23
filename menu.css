@@ -4,6 +4,10 @@
 	height: 45px;
 	padding-left: 18px;
 	border-radius: 10px;
+	position: relative;
+	width: 98%;
+   
+	
 }
 #menu ul, #menu li {
 	margin: 0 auto;
